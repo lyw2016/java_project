@@ -6,10 +6,10 @@ package com.lyw.demo;
  */
 public class InsertionSort {
     public static void main(String[] args) {
-        int[] array = {1, -5, 3, 78, 5, 10};
+        int[] array = {1, -5, 3, 78, 5, 0};
         insertionSort(array);
         for (int i : array) {
-            System.out.println(i);
+            System.out.print(i + "\t");
         }
     }
 
